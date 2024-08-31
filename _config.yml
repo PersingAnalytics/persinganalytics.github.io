@@ -1,3 +1,7 @@
 theme: jekyll-theme-tactile
 title: Persing Analytics
 description: Jeremy Persing's analytics portfolio
+collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
