@@ -23,4 +23,4 @@ Feel free to send me an email at: [persinganalytics@gmail.com](mailto:persingana
 
 - **LinkedIn**: [Jeremy Persing](https://www.linkedin.com/in/jeremy-persing/)
 - **GitHub**: [@PersingAnalytics](https://github.com/PersingAnalytics)
-- **YouTube*:* [Jeremy](https://www.youtube.com/channel/UCtLAhqH5Mezxt7DY9pcnOyg)
+- **YouTube**: [Jeremy](https://www.youtube.com/channel/UCtLAhqH5Mezxt7DY9pcnOyg)
