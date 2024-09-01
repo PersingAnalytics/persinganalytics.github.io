@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-description: ""
 permalink: /blog/
 ---
 <head>
@@ -46,6 +45,13 @@ permalink: /blog/
     }
   </style>
 </head>
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog/">Blog</a></li>
+  </ul>
+</nav>
 
 <div class="blog-list">
   {% for post in site.blog %}
