@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Zillow Dashboard in Power BI"
+description: ""
 date: 2024-08-31
 categories: ["Power BI", "Web Scraping"]
 ---
