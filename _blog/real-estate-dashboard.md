@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Zillow Dashboard in Power BI"
 description: ""
 date: 2024-08-31
