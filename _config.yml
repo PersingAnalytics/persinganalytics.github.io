@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
 title: Persing Analytics
-description: Jeremy Persing's analytics portfolio
+description: ""
 collections:
   blog:
     output: true
