@@ -3,11 +3,11 @@ layout: default
 title: Persing Analytics
 ---
 
-## What I do
+# What I do
 
-I create reports and dashboards that help businesses track processes and gain insights into what they are doing well and what they can improve on. I help anyone with data and a need to have it visualized.
+I create reports and dashboards that help businesses track processes and gain insights into what they are doing well and what they can improve on. I help anyone with data and a need to have it tracked and visualized.
 
-## Portfolio
+# Portfolio
 
 Stocks
 Real Estate
@@ -17,11 +17,11 @@ Health Care
 
 ## Let's Get in Touch
 
-### Email
+## Email
 
 Feel free to send me an email at: [persinganalytics@gmail.com](mailto:persinganalytics@gmail.com)
 
-### Social Media
+## Social Media
 
 - **LinkedIn**: [Jeremy Persing](https://www.linkedin.com/in/jeremy-persing/)
-- **GitHub**: [@PersingAnalytics]([https://github.com/yourusername](https://github.com/PersingAnalytics))
+- **GitHub**: [@PersingAnalytics](https://github.com/PersingAnalytics)
