@@ -2,14 +2,6 @@
 layout: default
 ---
 
-<nav>
-  <ul class"navbar">
-    <li><a href="/">Home</a></li>
-    <li><a href="/blog/">Blog</a></li>
-  </ul>
-</nav>
-
-
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
