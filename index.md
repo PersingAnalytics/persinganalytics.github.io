@@ -15,7 +15,7 @@ Stocks 2
 Stocks 3
 Health Care
 
-## Let's Get in Touch
+# Let's Get in Touch
 
 ## Email
 
