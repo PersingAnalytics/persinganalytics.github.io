@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
-title: Persing Analytics
-description: ""
+# title: Persing Analytics
+# description: ""
 collections:
   blog:
     output: true
