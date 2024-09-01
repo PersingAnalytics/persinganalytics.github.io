@@ -5,33 +5,44 @@ permalink: /blog/
 ---
 <head>
   <style>
-      .blog-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-      }
-      
-      .blog-card {
-        border: 1px solid #ccc;
-        padding: 20px;
-        border-radius: 5px;
-        width: 300px;
-        background-color: #f9f9f9;
-        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      .blog-card h2 {
-        font-size: 1.5em;
-      }
-      
-      .blog-card p {
-        color: #666;
-      }
-      
-      .blog-card a {
-        text-decoration: none;
-        color: #007BFF;
-      }
+    .blog-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      width: 300px;
+      background-color: #f9f9f9;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    .blog-card h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    
+    .blog-card .blog-date {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 15px;
+    }
+    
+    .blog-card p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 5; /* Ellipsis after 5 lines */
+      line-clamp: 5;
+      max-height: calc(5 * 1.2em); /* Adjust '1.2em' to match line-height */
+    }
+    
+    .blog-card a {
+      text-decoration: none;
+      color: #007BFF;
+      margin-top: auto; /* Push the link to the bottom */
+    }
   </style>
 </head>
 
@@ -39,6 +50,7 @@ permalink: /blog/
   {% for post in site.blog %}
     <div class="blog-card">
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
       <p>{{ post.excerpt }}</p>
       <a href="{{ post.url }}">Read More</a>
     </div>
