@@ -1,5 +1,5 @@
 /* assets/css/main.scss */
-/* @import "tactile";  /* Existing theme styles */ */
+@import "tactile";  /* Existing theme styles */
 
 /* Add your custom styles below */
 .navbar {
